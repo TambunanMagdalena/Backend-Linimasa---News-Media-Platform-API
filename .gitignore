@@ -1,5 +1,18 @@
-# Object file
+# Object files
 *.o
 
 # Ada Library Information
 *.ali
+
+# Environment & dependencies
+.env
+node_modules/
+package-lock.json
+
+# Build & test outputs
+coverage/
+video_test.mp4
+
+# OS-specific files
+.DS_Store
+Thumbs.db
